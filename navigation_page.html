@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naviagaton bar with dropdown</title>
+    <link rel="stylesheet" href="css/navigation_page.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="main">
+            <li class="active"><a href="#"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fas fa-user"></i>About</a></li>
+            <li><a href="#"><i class="fas fa-server"></i>Services</a>
+                <div class="dropdown1">
+                    <ul>
+                        <li><a href="#">Recruitment</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Training</a></li>
+                    </ul>
+                </div>
+
+            </li>
+            <li><a href="#"><i class="fas fa-edit"></i>Training</a>
+                <div class="dropdown1">
+                    <ul>
+                        <li><a href="#">Front-end</a></li>
+                        <li class="select"><a href="#">Back-end<i class="fas fa-plus"></i></a>
+                            <div class="dropdown2">
+                                <ul>
+                                    <li><a href="#">Node.js</a></li>
+                                    <li><a href="#">PHP</a></li>
+                                    <li><a href="#">dotnet</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="select"><a href="#">Mobile dev<i class="fas fa-plus"></i></a>
+                            <div class="dropdown2">
+                                <ul>
+                                    <li><a href="#">React native</a></li>
+                                    <li><a href="#">flutter</a></li>
+                                    <li><a href="#">ionic</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </li>
+            <li><a href="#"><i class="fas fa-users"></i>Blog</a></li>
+            <li><a href="#"><i class="fas fa-phone"></i>Contact</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
